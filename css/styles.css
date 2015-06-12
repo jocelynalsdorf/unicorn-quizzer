@@ -1,7 +1,4 @@
-.colored {
-	text-decoration: none;
-	color: #000;
-}
+
 body {
 	font-family: 'Handlee', cursive;
 	font-size: 17px;
@@ -59,4 +56,17 @@ h1 {
 
 .unicorn-pic {
 	margin-top: 20px;
+}
+
+.colored {
+	text-decoration: none;
+	color: #7D8A2E;
+}
+
+.green {
+	font-weight: bold;
+	color: #7D8A2E;
+}
+.pink {
+	color: #FF8598;
 }

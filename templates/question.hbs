@@ -1,5 +1,6 @@
 <h1>{{title}}</h1>
-<h4>By: {{author}}</h4>
+<h4><span class="green">By:</span> {{author}}</h4>
+
 {{#if isEditing}}
 
 
@@ -25,13 +26,13 @@
 {{else}}
 
 
-<p>{{description}}</p>
+<p><span class="green">The big question:</span> {{description}}</p>
 <button class="btn btn-primary" {{action 'edit'}}>Edit</button>
 <button class="btn btn-danger" {{action 'delete'}}>Delete</button>
 
 {{/if}}
 
-<h2>Current Submitted Answers:</h2>
+<h4 class="green">Current Submitted Answers:</h4>
 
 {{#each answers}}
 	<p>{{text}}</p>
