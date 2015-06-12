@@ -31,6 +31,15 @@ h1 {
 
 }
 
+.btn-danger {
+	background-color: #FFC0A9;
+	border: none;
+}
+
+.btn-danger:hover {
+	background-color: #C9D787;
+}
+
 .btn-primary {
 	background-color: #7D8A2E;
 	border: none;
