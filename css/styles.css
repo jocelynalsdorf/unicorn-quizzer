@@ -3,8 +3,27 @@
 	color: #000;
 }
 
+h1 {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 34px;
+}
 
+.questions {
+	text-align: center;
 
+}
+.questions > ul {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 20px;
+	padding-top: 3px;
+}
 
-/*font-family: 'Luckiest Guy', cursive;
+.questions > ul > li{
+
+}
+
+/*
 font-family: 'Handlee', cursive;*/

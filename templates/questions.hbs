@@ -1,10 +1,19 @@
-<h1>Questions &amp; Answers for Unicorns</h1>
 
-    <ul>
-    {{#each}}
-      <li>{{#link-to 'question' this.id}}{{title}} <span class="colored">Posted by: </span> {{author}}{{/link-to}}</li>
-    {{/each}}
-    </ul>
+<div class="container-homepage">
+  <div class="row">
+    <div class="col-md-2 left"></div>
+    <div class="col-md-8 questions">
+      <h1>Questions &amp; Answers for Unicorns</h1>
 
-{{!-- <button class="btn"><a href="#" {{action 'sortByTitle'}}>Sort By</a></button> --}}
-<p>{{#link-to 'new-question' classNames="btn btn-primary"}}New Question{{/link-to}}</p>
+          <ul>
+          {{#each}}
+            <li>{{#link-to 'question' this.id}}{{title}} <span class="colored">Posted by: </span> {{author}}{{/link-to}}</li>
+          {{/each}}
+          </ul>
+
+      {{!-- <button class="btn"><a href="#" {{action 'sortByTitle'}}>Sort By</a></button> --}}
+      <p>{{#link-to 'new-question' classNames="btn btn-primary"}}New Question{{/link-to}}</p>
+    </div>
+    <div class="col-md-2 right"></div>
+  </div>
+</div>
