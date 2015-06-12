@@ -1,0 +1,1 @@
+Quiz = Ember.Application.create();
