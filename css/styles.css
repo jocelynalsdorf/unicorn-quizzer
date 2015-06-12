@@ -2,10 +2,15 @@
 	text-decoration: none;
 	color: #000;
 }
+body {
+	font-family: 'Handlee', cursive;
+	font-size: 17px;
+}
 
 h1 {
 	font-family: 'Luckiest Guy', cursive;
-	font-size: 34px;
+	font-size: 35px;
+	color: #FF8598;
 }
 
 .questions {
@@ -19,11 +24,30 @@ h1 {
 	padding-left: 0;
 	padding-bottom: 20px;
 	padding-top: 3px;
+	font-family: 'Handlee', cursive;
 }
 
 .questions > ul > li{
 
 }
 
-/*
-font-family: 'Handlee', cursive;*/
+.btn-primary {
+	background-color: #7D8A2E;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #C9D787;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #7D8A2E;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #C9D787;
+}
+
+.unicorn-pic {
+	margin-top: 20px;
+}
