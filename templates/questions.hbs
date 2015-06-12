@@ -5,15 +5,13 @@
     <div class="col-md-8 questions">
       <h1>Questions &amp; Answers for Unicorns</h1>
 
-          <ul>
-          {{#each}}
-            <li>{{#link-to 'question' this.id}}{{title}} <span class="colored">Posted by: </span> {{author}}{{/link-to}}</li>
-          {{/each}}
-          </ul>
+        <ul>
+        {{#each}}
+          <li>{{#link-to 'question' this.id}}{{title}} <span class="colored">Posted by: </span> {{author}}{{/link-to}}</li>
+        {{/each}}
+        </ul>
 
-      {{!-- <button class="btn"><a href="#" {{action 'sortByTitle'}}>Sort By</a></button> --}}
       <p>{{#link-to 'new-question' classNames="btn btn-primary"}}New Question{{/link-to}}</p>
-
       <img class="unicorn-pic" src="RainbowUni.jpg" alt="unicorn">
 
     </div>

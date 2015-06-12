@@ -35,9 +35,9 @@
 <h4 class="green">Current Submitted Answers:</h4>
 
 {{#each answers}}
-	<p>{{text}}</p>
+	<p class="answers-list-items">{{text}}</p>
 {{/each}}
 
-<p>{{#link-to 'new-answer' this.id class="btn btn-primary"}}New Answer {{/link-to}}</p>
+<p>{{#link-to 'new-answer' this.id class="btn btn-green btn-primary"}}New Answer {{/link-to}}</p>
 
 {{outlet}}

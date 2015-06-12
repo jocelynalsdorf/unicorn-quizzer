@@ -5,4 +5,5 @@ Quiz.Router.map(function() {
   });
   this.resource('new-question');
 
+
 });

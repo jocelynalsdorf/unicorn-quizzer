@@ -11,5 +11,4 @@ Quiz.NewQuestionController = Ember.Controller.extend({
     }
   }
 
-
 });
