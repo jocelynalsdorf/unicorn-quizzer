@@ -11,7 +11,7 @@ Quiz.AnswerController = Ember.ObjectController.extend({
 		delete: function(){
 			if(confirm("are you sure?")) {
 				this.get('model').destroyRecord();
-				this.transitionToRoute('questions');
+				this.transitionToRoute('question');
 			}
 		}
 	}

@@ -53,6 +53,8 @@ h1 {
 .navbar-default .navbar-nav > li > a {
 	color: #7D8A2E;
 }
+.ember-view.btn {
+	background-color: #7D8A2E;
 
 .navbar-default .navbar-nav > li > a:hover {
 	color: #C9D787;
